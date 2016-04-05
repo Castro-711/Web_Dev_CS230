@@ -1,0 +1,47 @@
+.returned_row{
+	display: none;
+}
+
+#data{
+	display:none;
+}
+
+#hidden_rows{
+	display: inline;
+}
+
+h1{
+	color: white;
+	background-color: blue;
+}
+
+body{
+	background-color: silver;
+}
+
+#position_submit{
+	
+	left: 50px;
+	top: 500px;
+}
+
+th{
+	border-left: 10px;
+	border-color: white;
+	background-color: black;
+	color: white;
+	height: 100px;
+	width: 237px;
+
+}
+
+td{
+	width: 237px;
+	color: black;
+	background-color: white;
+	font-weight: bold;
+	font-family: arial;
+	margin-bottom: 20px;
+	border-style: double;
+	border-color: blue;
+}
