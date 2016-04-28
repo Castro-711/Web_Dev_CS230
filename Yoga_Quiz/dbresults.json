@@ -1,0 +1,123 @@
+[
+{
+    "id": "1",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Corpse-Pose\/Corpse-Pose.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Corpse-Pose\/kQBMILFz3jvX.jpg",
+    "english_name": "Corpse Pose",
+    "sanskirt_name": "Savasana"
+},{
+    "id": "2",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/crane\/crane.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/crane\/53WBX69zx1yn.jpg",
+    "english_name": "Crane",
+    "sanskirt_name": "Bakasana"
+},{
+    "id": "3",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/crane-side\/crane-side.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/crane-side\/xQZ4w5s0Wrjy.jpg",
+    "english_name": "Crane-side",
+    "sanskirt_name": "Parsva Bakasana"
+},{
+    "id": "4",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/dog\/dog.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/dog\/DNG1vYTp6JxX.jpg",
+    "english_name": "Downward Forward-Facing Dog",
+    "sanskirt_name": "Adho Mukha Savasana"
+},{
+    "id": "5",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Eka-Pada-Jathara-Paarivartta\/EPJP.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Eka-Pada-Jathara-Paarivartta\/EPJP_half.jpg",
+    "english_name": "One Leg Revolved Belly Pose",
+    "sanskirt_name": "Eka Pada Jathara Paarivartta"
+},{
+    "id": "6",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Eka-Pada-Parivrtta-Upavisth\/EPPU.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Eka-Pada-Parivrtta-Upavisth\/EPPU_half.jpg",
+    "english_name": "One Leg Relvoving Seated Pose",
+    "sanskirt_name": "Eka Pada Parivrtta Upavisth"
+},{
+    "id": "7",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Eka-Pada-Parsva-Bakasana\/Eka-Pada-Parsva-Bakasana.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Eka-Pada-Parsva-Bakasana\/TO9k6xRsXUD2.jpg",
+    "english_name": "One Leg Side Crane Pose",
+    "sanskirt_name": "Eka Pada Parsva Bakasana"
+},{
+    "id": "8",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Eka-Pada-Sarvangasana\/Eka-Pada-Sarvangasana.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Eka-Pada-Sarvangasana\/wx1Y7Oj4qZ4z.jpg",
+    "english_name": "One Leg Supported Shoulderstand Pose",
+    "sanskirt_name": "Eka Pada Salamba Sarvangasana"
+},{
+    "id": "9",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/extended-side\/extended-side.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/extended-side\/1Q5mYamOkPdR.jpg",
+    "english_name": "Extended Side Angle",
+    "sanskirt_name": "Parsvakonasana"
+},{
+    "id": "10",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/fish\/fish.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/fish\/w78CX5Jf7BEr.jpg",
+    "english_name": "Half Fish Pose",
+    "sanskirt_name": "Ardha Matsyasana"
+},{
+    "id": "11",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/fish2\/fish2.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/fish2\/FWxcG1czuMqs.jpg",
+    "english_name": "Fish Pose (Variation)",
+    "sanskirt_name": "Matsyanasan"
+},{
+    "id": "12",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Galavasana\/Galavasana.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Galavasana\/XGxXj5mzzuub.jpg",
+    "english_name": "Name of a Sage",
+    "sanskirt_name": "Galavasana"
+},{
+    "id": "13",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Heron-Pose\/Heron-Pose.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Heron-Pose\/UfReRWPbxEr1.jpg",
+    "english_name": "Heron Pose",
+    "sanskirt_name": "Krounchasana"
+},{
+    "id": "14",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/janu\/janu.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/janu\/nGjsij4K7Ogj.jpg",
+    "english_name": "Revolved Knee to the Head",
+    "sanskirt_name": "Parivrtta Janu Sirsasana"
+},{
+    "id": "15",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Janu-Sirsasana2\/Janu-Sirsasana2.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Janu-Sirsasana2\/9kemZm63IZnT.jpg",
+    "english_name": "Revolved Knee to the Head (Variation)",
+    "sanskirt_name": "Janu Sirsasana"
+},{
+    "id": "16",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Janu-Sirsasana-revolved2\/Janu-Sirsasana-revolved2.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Janu-Sirsasana-revolved2\/CPDFM8duslkl.jpg",
+    "english_name": "Revolved Knee to the Head (Variation)",
+    "sanskirt_name": "Parivrttta Janu Sirsasana"
+},{
+    "id": "17",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Kapotasana\/Kapotasana.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Kapotasana\/vcbyoQg9gfnh.jpg",
+    "english_name": "Pigeon Pose",
+    "sanskirt_name": "Kapotasana"
+},{
+    "id": "18",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Karnapidasana\/Karnapidasana.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Karnapidasana\/4zIaiusY2nnS.jpg",
+    "english_name": "Ear Pressure Pose",
+    "sanskirt_name": "Karnapidasana"
+},{
+    "id": "19",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/koundinyasana\/koundinyasana.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/koundinyasana\/lGyPJ6XycTup.jpg",
+    "english_name": "Named After a Sage",
+    "sanskirt_name": "Koundinyasana II"
+},{
+    "id": "20",
+    "full_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Locust-Pose\/Locust-Pose.jpg",
+    "half_image_path": "http:\/\/localhost\/Yoga_Quiz\/res\/Locust-Pose\/iqWDkBDUFjTX.jpg",
+    "english_name": "Locust Pose",
+    "sanskirt_name": "Shalabhasana"
+}
+]

@@ -1,0 +1,48 @@
+<?php
+	echo "<h1>This is the index page of the yoga quiz project</h1>";
+	
+	$servername = "localhost";
+	$username = "root";
+	$password = "";
+	$dbname = "yoga_quiz";
+
+	// create connection
+	$conn = new mysqli($servername, $username, $password, $dbname);
+
+	// check connection
+	if($conn -> connect_error)
+		die("Connection failed: " . $conn -> connect_error);
+
+	// sql to create table
+	$sql = "CREATE TABLE yoga_cards (
+	id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	full_image_path VARCHAR(250) NOT NULL,
+	half_image_path VARCHAR(250) NOT NULL,
+	english_name VARCHAR(50) NOT NULL,
+	sanskirt_name VARCHAR(50) NOT NULL)";
+
+	if($conn -> query($sql) === TRUE)	
+		echo "Table Yoga Cards has been created successfully";
+	else
+		echo "Error creating table: " . $conn -> error;
+
+	$sql = "INSERT INTO yoga_cards(full_image_path, half_image_path, english_name, sanskirt_name) VALUES ('http://localhost/img/Yoga_Quiz/res/Corpse-Pose/Corpse-Pose.jpg', 'http://localhost/img/Yoga_Quiz/res/Corpse-Pose/kQBMILFz3jvX.jpg', 'Corpse Pose', 'Savasana')";
+
+	if($conn -> query($sql) === TRUE)
+		echo "New record created successfully";
+	else 
+		echo "Error: " . $sql . "<br>" . $conn -> error;
+
+	
+
+	$sql = "SELECT id, full_image_path, half_image_path, english_name, sanskirt_name FROM yoga_cards";
+	
+	$result = $conn -> query($sql);
+
+	if($result -> num_rows > 0)
+		while($row = $result -> fetch_assoc())
+			echo "<img src=" . $row["half_image_path"] . ">";
+
+	$conn -> close();
+
+?>
