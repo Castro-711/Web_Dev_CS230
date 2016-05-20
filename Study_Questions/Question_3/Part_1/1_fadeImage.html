@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fading out an image and fading in another with JQuery</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script>
+			// this isnt working......!!!!!
+
+			// the line need to use the JQuery library
+			$(document).ready(function(){
+				
+				$("#millie").click(){
+					alert("yo");
+					$('#millie').fadeOut(slow, function(){
+						// animation complete
+					});
+				}
+			});
+
+			$("#millie").click(function(e) {
+				alert("yeah yeah yeah");
+			    e.preventDefault();
+			    $imgURL = $(this).attr("href");
+			    $("#millie")
+			        .fadeOut(400, function() {
+			            $("#millie").attr('src',$imgURL);
+			        })
+			        .fadeIn(400);
+			});
+		</script>
+</head>
+<body>
+	<div id="main">
+		<img id="millie" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHG3LY9rynWEg7Gt2LeK6VMURkBwTVbjoCBTx1-v2RdJBSJ_7sWw" onload="$(this).fadeIn();">
+		<!-- <img id="illie" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQUuHHuVsxJkQlplqwdffXEPgA5Oio41rC76TQm6CmLypkczNSR"> -->
+	</div>
+
+</body>
+</html>

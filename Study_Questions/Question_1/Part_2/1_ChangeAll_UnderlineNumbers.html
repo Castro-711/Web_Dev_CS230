@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> ChangeAll_Funtion </title>
+	<script>
+		function changeAll(){
+
+			// takes in the text and stores it in variable -
+			var original = document.getElementById("text").innerHTML;
+			var output = "";
+
+			for(var i = 0; i < original.length; i++){
+				// this check for numbers in the text and replaces 
+				// them with themselves uderlined
+				if(original[i].match(/\d+/))
+					output += "<u>" + original[i] + "</u>";
+				else
+					output += original[i];
+			}
+
+			// this injects output, containing the new underlined numbers 
+			// within the text, into the div
+			document.getElementById("text").innerHTML = output;
+		}
+	</script>
+</head>
+<body>
+	<div id="text">
+		Th15 15 t3xt w1th1n my d1v. Wh3n pr3551ng the butt0n b3l0w w1ll und3rl1n3 all th3 numb3r5.
+	</div>
+	<button onclick="changeAll()">
+		Underline Numbers
+	</button>
+</body>
+</html>

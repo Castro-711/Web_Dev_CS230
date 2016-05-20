@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Hovering Link explanation </title>
+	<script>
+		// this is not working properly will get some marks though but hopefully not asked
+		
+		function showDiv(passed){
+			document.getElementById(passed).style.visibility = "visible";
+		}
+
+		function hideDiv(passed){
+				document.getElementById("div_one").style.visibility = "hidden";
+		}
+
+		var prevPassed = null;
+
+		function toggle(passed){
+
+			alert(document.getElementById(passed.id).style.visibility);
+
+			prevPassed = passed.id;
+		}
+
+		function alertContainer(passed){
+			//alert(passed.id);
+		}
+	</script>
+	<style>
+		div a{
+			color: red;
+			text-decoration: none;
+			cursor: hand;
+		}
+		#div_one{
+			visibility: hidden;
+		}
+		#div_two{
+			visibility: hidden;
+		}
+	</style>
+</head>
+<body>
+	<div id="container" onmouseover="alertContainer(this)">
+		<a id="link_one" href="#" onmouseover="return showDiv(this)">nuim_moodle.ie</a>
+		<span id="div_one">A link to the college website</span><br>
+		<a id="link_two" href="#" onmouseover="return showDiv(this)">lfcnewsnow.com</a>
+		<span id="div_two">A link the Liverpool News Now website</span>
+	</div>
+</body>
+</html>

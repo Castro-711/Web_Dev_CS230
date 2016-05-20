@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Change all to Upper Case</title>
+	<script>
+		function changeAll(){
+			// store the content in the original variable
+			var original = document.getElementById("text").innerHTML;
+			// store original in uppercase in the variable output
+			var output = original.toUpperCase();
+			// inject output into the div
+			document.getElementById("text").innerHTML = output;
+		}
+	</script>
+</head>
+<body>
+	<div id="text">
+		This is the text. When you press the button below, all this text will become uppercase.
+	</div>
+	<!-- onclick calls the changeAll() function when the button is clicked -->
+	<button onclick="changeAll()">
+	 	To UpperCase
+	</button>
+</body>
+</html>

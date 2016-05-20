@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> This is a modal dialog box that needs acceptance of cookies to proceed </title>
+	<script type="text/javascript">
+	
+			// window.onload gets called as soon as the window is opened
+			window.onload = function openBox(){
+				var box_content = "<div id='overlay'><div id='box_frame'><div id='box'>This wesite uses cookies, to proceed you must acknowledge that by pressing 'Yes I agree', below.<button id='confirm' onclick='return_dynamic()'>Yes I agree</button><button onclick='redirect()'>No Thankyou</div></div></div>";
+
+				if(navigator.cookieEnabled)
+				{
+					//readCookie();
+				}
+				// the += is crucial so as to not leave out the original html
+				// this line just adds box_content within our existing dynamic div
+				document.getElementById("dynamic").innerHTML += box_content;
+			}
+
+			function return_dynamic(){
+				document.getElementById("overlay").style.display = "none";
+				// writeCookie(); user has accepted so now we can write a cookie
+				// it is commented because it does'nt work otherwise but in exam can be uncommented
+			}
+
+			function redirect(){
+				// a redirect
+				window.location = "https://www.google.ie/search?q=you+are+a+douche&client=ubuntu&hs=89Q&channel=fs&tbm=isch&imgil=rSxP7Wdzfk76_M%253A%253BuDlQQtAjAc44lM%253Bhttp%25253A%25252F%25252Fwww.douchediaries.com%25252Fhey-your-a-douche%25252F&source=iu&pf=m&fir=rSxP7Wdzfk76_M%253A%252CuDlQQtAjAc44lM%252C_&usg=__FnoTh8i1Z4BRMkU7orM0vzGlJRA%3D&biw=1323&bih=641&ved=0ahUKEwjZoP_E9MzMAhUDPhQKHRqLDxcQyjcIJw&ei=UXcwV5k0g_xQmpa-uAE#imgrc=rSxP7Wdzfk76_M%3A";
+			}
+
+			// two functions which we do not need to write their internals and can assume they exist.
+			function writeCookie(){
+
+			}
+
+			function readCookie(){
+
+			}
+
+	</script>
+	<style type="text/css">
+
+		/*This is the CSS for the modal, this is what gives it the see through affect
+			alot of it could be overkill and alot can be changed to your preferences*/
+		body{
+			padding: 0;
+			margin: 0;
+		}
+
+		#overlay{
+			width: 100%;
+			height: 100%;
+			position: fixed;
+			top: 0;
+			left: 0;
+			/* these next two is what give it the see through affect */
+			background-color: black;
+			opacity: .7;
+		}
+
+		#box_frame{
+			width: 100%;
+			position: fixed;
+			top: 30%;
+		}
+
+		#box{
+			width: 450px;
+			height: 175px;
+			padding: 10px;
+			margin: auto;
+			background-color: white;
+			color: black;
+			border: 4px solid blue;
+			font-size: 17px;
+		}
+
+	</style>
+</head>
+<body >
+	<div id="dynamic">
+		<h1>This is a valid website...! Capeesh...?!</h1>
+	</div>
+</body>
+</html>

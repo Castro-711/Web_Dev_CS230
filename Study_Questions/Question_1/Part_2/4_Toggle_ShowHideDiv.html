@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Toggle - Show and Hide Div </title>
+	<script>
+		// a function to show the div by changing the display value to block
+		function showDiv(divName){
+			document.getElementById(divName).style.display = "block";
+		}
+
+		// a function to show the div by chnaging the display value to none
+		function hideDiv(divName){
+			document.getElementById(divName).style.display = "none";
+		}
+
+		// count is used to track the on off functionality needed for 
+		var count = 0; // the toggle function
+
+		function toggle(){
+			count++;
+			if(count % 2 == 0)
+				showDiv("toggler");
+			else
+				hideDiv("toggler");
+		}		
+	</script>
+	<style>
+		#toggler{
+		    display: block;
+		}
+	</style>
+</head>
+<body>
+	<div id="toggler">
+	  <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQeB0xg0TSSd_kRP7vWDSfddbxv7rwPS_prNKNnebebMWIaiJEQ"/>
+	</div>
+	<button onclick="toggle()">
+	  Toggle Div
+	</button>
+</body>
+</html>
